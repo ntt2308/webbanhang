@@ -7,9 +7,7 @@
                     <div class="single-footer">
                         <h3 class="footer-title  title-border">LIÊN HỆ CHÚNG TÔI</h3>
                         <ul class="footer-contact">
-                            <li><span>Địa chỉ :</span>182 Lê Duẩn, Bến Thủy,<br> Thành phố Vinh, Nghệ An</li>
-                            <li><span>Điện thoại :</span>0987654321</li>
-                            <li><span>Email :</span>Daihocvinh@gmail.com</li>
+
                         </ul>
                     </div>
                 </div>
@@ -47,7 +45,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright">
-                        <p class="mb-0">&copy; <a href=" https://themeforest.net/user/codecarnival/portfolio " target="_blank"> CodeCarnival  </a> 2022. All Rights Reserved.</p>
+                        <p class="mb-0">&copy; <a href=" https://themeforest.net/user/codecarnival/portfolio " target="_blank"> CodeCarnival  </a> 2025. All Rights Reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
