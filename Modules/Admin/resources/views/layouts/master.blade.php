@@ -22,7 +22,7 @@
     {{-- Summernote --}}
     <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.3/summernote.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-lite.js"></script>
-    
+
     {{-- End Summernote --}}
     {{-- <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> --}}
@@ -72,20 +72,19 @@
                     <li class="{{ \Request::route()->getName() == 'admin.get.list.supplier' ? 'active' : '' }}"><a
                             href="{{ Route('admin.get.list.supplier') }}"><i class="fa fa-bar-chart" aria-hidden="true"></i> NHÀ CUNG CẤP</a></li>
                     <li class="{{ \Request::route()->getName() == 'admin.get.list.import' ? 'active' : '' }}"><a
-                        href="{{ Route('admin.get.list.import') }}"><i class="fa fa-bar-chart" aria-hidden="true"></i> NHẬP HÀNG</a></li>         
+                        href="{{ Route('admin.get.list.import') }}"><i class="fa fa-bar-chart" aria-hidden="true"></i> NHẬP HÀNG</a></li>
                     <li class="{{ \Request::route()->getName() == 'admin.get.list.rating' ? 'active' : '' }}"><a
                             href="{{ Route('admin.get.list.rating') }}"><i class="fa fa-star" aria-hidden="true"></i> ĐÁNH GIÁ</a></li>
                     <li class="{{ \Request::route()->getName() == 'admin.get.list.article' ? 'active' : '' }}"><a
                             href="{{ Route('admin.get.list.article') }}"><i class="fa fa-tags" aria-hidden="true"></i> TIN TỨC</a></li>
                      <li class="{{ \Request::route()->getName() == 'admin.get.list.transaction' ? 'active' : '' }}"><a
                             href="{{ Route('admin.get.list.transaction') }}"><i class="fa fa-newspaper-o" aria-hidden="true"></i> ĐƠN HÀNG</a></li>
-                    <li class="{{ \Request::route()->getName() == 'admin.get.list.banner' ? 'active' : '' }}"><a
-                            href="{{ Route('admin.get.list.banner') }}"><i class="fa fa-picture-o" aria-hidden="true"></i> BANNER</a></li>
-                    <li class="{{ \Request::route()->getName() == 'admin.get.list.user' ? 'active' : '' }}"><a 
+
+                    <li class="{{ \Request::route()->getName() == 'admin.get.list.user' ? 'active' : '' }}"><a
                             href="{{ Route('admin.get.list.user') }}"><i class="fa fa-user" aria-hidden="true"></i> THÀNH VIÊN</a></li>
-                    <li class="{{ \Request::route()->getName() == 'account.index' ? 'active' : '' }}"><a 
+                    <li class="{{ \Request::route()->getName() == 'account.index' ? 'active' : '' }}"><a
                             href="{{ Route('account.index') }}"><i class="fa fa-user-circle" aria-hidden="true"></i> TÀI KHOẢN</a></li>
-                    <li class="{{ \Request::route()->getName() == 'admin.get.list.contact' ? 'active' : '' }}"><a 
+                    <li class="{{ \Request::route()->getName() == 'admin.get.list.contact' ? 'active' : '' }}"><a
                             href="{{ Route('admin.get.list.contact') }}"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> LIÊN HỆ</a></li>
                 </ul>
 
@@ -118,7 +117,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
-   
+
     {{-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> --}}
     @yield('scripts')
     <script>
@@ -140,7 +139,7 @@
         setTimeout(function() {
             $('.alert').fadeOut('fast');
         }, 5000); // 5 giây
-    
+
     </script>
 </body>
 
