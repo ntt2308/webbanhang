@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>ĐỒ ÁN TỐT NGHIỆP</title>
+		<title></title>
 		<meta name="description" content="Hurst – Furniture Store eCommerce HTML Template is a clean and elegant design – suitable for selling flower, cookery, accessories, fashion, high fashion, accessories, digital, kids, watches, jewelries, shoes, kids, furniture, sports….. It has a fully responsive width adjusts automatically to any screen size or resolution.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,7 +34,7 @@
 		<!-- material-design-iconic-font css -->
 		<link rel="stylesheet" href="<?php echo e(asset('css/material-design-iconic-font.css')); ?>">
 		<!-- All common css of theme -->
-		
+
 		<!-- style css -->
 		<link rel="stylesheet" href="<?php echo e(asset('style.min.css')); ?>">
         <!-- shortcode css -->
@@ -96,7 +96,7 @@
 
                     </div>
                     <?php endif; ?>
-			<?php echo $__env->yieldContent('content'); ?> 
+			<?php echo $__env->yieldContent('content'); ?>
 			<?php if(isset($productHot)): ?>
 				<div class="product-area pt-80 pb-35">
 					<div class="container">
@@ -126,14 +126,14 @@
 										<div class="product-info clearfix">
 											<div class="fix">
 												<h4 class="post-title floatleft"><a href="<?php echo e(route('get.detail.product',[$proHot->pro_slug,$proHot->id])); ?>"><?php echo e($proHot->pro_name); ?></a></h4>
-											
+
 											</div>
 											<div class="fix">
-												<span class="pro-price floatleft"><del>GIá: <?php echo e($proHot->pro_price); ?></del></span>
+												<span class="pro-price floatleft"><del>Giá: <?php echo e($proHot->pro_price); ?></del></span>
 												<span class="pro-price floatleft"> Giá khuyến mãi: <?php echo e($proHot->pro_sale); ?></span>
 											</div>
 										</div>
-										
+
 									</div>
 									<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 								</div>
@@ -200,14 +200,14 @@
 									<div class="product-info clearfix">
 										<div class="fix">
 											<h4 class="post-title floatleft"><a href="<?php echo e(route('get.detail.product',[$proHot->pro_slug,$proHot->id])); ?>"><?php echo e($proHot->pro_name); ?></a></h4>
-										
+
 										</div>
 										<div class="fix">
 											<span class="pro-price floatleft"><del>GIá: <?php echo e($proHot->pro_price); ?></del></span>
 											<span class="pro-price floatleft"> Giá khuyến mãi: <?php echo e($proHot->pro_sale); ?></span>
 										</div>
 									</div>
-									
+
 								</div>
 								<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 							</div>
@@ -245,14 +245,14 @@
 									<div class="product-info clearfix">
 										<div class="fix">
 											<h4 class="post-title floatleft"><a href="<?php echo e(route('get.detail.product',[$proHot->pro_slug,$proHot->id])); ?>"><?php echo e($proHot->pro_name); ?></a></h4>
-										
+
 										</div>
 										<div class="fix">
 											<span class="pro-price floatleft"><del>GIá: <?php echo e($proHot->pro_price); ?></del></span>
 											<span class="pro-price floatleft"> Giá khuyến mãi: <?php echo e($proHot->pro_sale); ?></span>
 										</div>
 									</div>
-									
+
 								</div>
 								<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 							</div>
@@ -261,7 +261,7 @@
 				</div>
 			</div>
 			<?php endif; ?>
-			
+
 			<?php if(isset($articleNews)): ?>
 			<div class="product-area pt-80 pb-35">
 				<div class="container">
@@ -282,10 +282,10 @@
 											<h4 class="post-title floatleft"><a href="<?php echo e(route('get.detail.article',[$articleNew->a_slug, $articleNew->id])); ?>"><?php echo e($articleNew->a_name); ?></a></h4>
 											<p class="floatright hidden-sm d-none d-md-block" style="color: #c87065"><?php echo e($articleNew->created_at->format('d-m-Y')); ?></p>
 										</div>
-										
+
 										<a href="<?php echo e(route('get.detail.article',[$articleNew->a_slug, $articleNew->id])); ?>" class="button-2 text-dark-red">Xem thêm...</a>
 									</div>
-									
+
 								</div>
 								<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 							</div>
@@ -327,13 +327,14 @@
 		<script src="<?php echo e(asset('js/plugins.js')); ?>"></script>
 		<!-- main js -->
 		<script src="<?php echo e(asset('js/main.min.js')); ?>"></script>
-		
+
 		<script>
 			setTimeout(function() {
 				$('.alert').fadeOut('fast');
 			}, 5000); // 5 giây
-		
+
 		</script>
 	</body>
 </html>
+
 <?php /**PATH D:\Web_Ban_Do_Dien_Tu\resources\views/layouts/app.blade.php ENDPATH**/ ?>

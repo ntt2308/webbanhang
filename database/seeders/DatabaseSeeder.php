@@ -24,5 +24,13 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@gmail.com',
             'password' => bcrypt('1234567')     
         ]);
+
+        // Thêm tài khoản admin mới
+        DB::table('admin')->insert([
+            'name' => 'admin2',
+            'email' => 'admin2@gmail.com',
+            'phone' => '0123456789',
+            'password' => bcrypt('1234567')     
+        ]);
     }
 }

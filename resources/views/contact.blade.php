@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="contact-us-area  pt-80 pb-80">
-    <div class="container">	
+    <div class="container">
         <div class="contact-us customer-login bg-white">
             <div class="row">
                 <div class="col-lg-4 col-md-5">
@@ -10,12 +10,11 @@
                         <ul>
                             <li>
                                 <i class="zmdi zmdi-pin"></i>
-                                <span>182 Lê Duẩn, Bến Thủy, Thành phố Vinh</span>
-                                <span> Nghệ An, Vietnam</span>
+
                             </li>
                             <li>
                                 <i class="zmdi zmdi-phone"></i>
-                                <span>+0987654321</span>
+
                                 <span>+0123456789</span>
                             </li>
                             <li>
